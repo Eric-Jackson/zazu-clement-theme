@@ -1,16 +1,7 @@
 {
-  "name": "clement-theme",
+  "name": "snaked-theme",
   "version": "1.0.0",
   "description": "A modern, clean Zazu theme.",
-  "main": "gulpfile.js",
-  "scripts": {
-    "build": "gulp build"
-  },
-  "author": "Eric Jackson",
-  "license": "MIT",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-inline-image": "0.0.5",
-    "gulp-sass": "^2.3.1"
-  }
+  "author": "Tanish",
+  "license": "MIT"
 }

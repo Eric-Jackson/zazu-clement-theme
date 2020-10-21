@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+section#zazu div.results ul li:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+* {
+  box-sizing: border-box; }
+input[type="text"]{
+  font-style:'Arvo',sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  overflow: hidden;
+  height: 100%; }
+
+body.playbook {
+  background: #4D6A45 url(https://unsplash.it/1000/1000/?blur) no-repeat center center;
+  background-size: cover; }
+
+#install {
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 3px 3px;
+  padding: 5px 20px; }
+  #install h2 {
+    font-size: 24px; }
+
+section#zazu {
+  background-position: 530px 5px;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  -webkit-app-region: drag;
+  cursor: move;
+ box-shadow:0 0 40px 4px rgba(0,0,0,.6);
+  border-radius: 7px;
+  font-family: 'Arvo', sans-serif;}
+
+section#zazu:hover,section#zazu:active{
+ box-shadow:0 0 60px 6px rgba(0,0,0,.9);
+}
+  section#zazu > div {
+    background: #FFF;
+    border-radius: 7px; }
+  section#zazu input {
+    outline: none;
+    font-size: 40px;
+    width: 500px;
+    padding: 15px 20px;
+    border: 0;
+    cursor: auto;
+    width: 100%;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMpSURBVFiFvdfPa1xVGMbxzylNMovQBLsZayAQTCNUN2nXszJUMSiIi0LAjaCuCuKf0IWrunGRhtCtGxWx1S6MoKILFxlbEEpjIP4gSaVQ0ILYkLbHxX3H3g6ZuTNNxgOHO/fc8z73e973vO+5k3LOOrWUUg3P4xXM4kkcxW3cxI/4DF/lnO92FOrSUieAlNIcLmIC62hGX8MMTkafxibeyDmv9E2Qc36kYxSLuI/zGIvxOubxblzrMT4W8+6H3Wi7Zrfe/vJZbERvYBxL2ELGX1iNa47xpZjXKNnO9g0QK9/AJ/H7hXDtNSyE21shS3G/EM83Y/5o2G/06okywGLLEO9hF+cwVJpzGD/hBj7FixiKebth11rIYs8AmIsYNmIlu2jsacCzeFOxQXfwA54K292wb4TeXCUAavg9NtJ4uPNcT/RFhnyNXzAVntgMnfOhW6sCmMeD2M1LEdOhXgBCoIYv8W2E41rojIXufBXAMtbiZgsL/aRR2E3iH7wcG3Mrxtew3M32sCL1mimlOo4p0qyvlnP+LaX0On6NfXEs9Jqh37EdUpTXJk7hDn7uFyAgPsL1sL8Tes3Q7wpw1MPyup471eaKllIax8dhvx56N/BEFcDtmLyG6ZRSehyAnPOfeC3sp0NvQpEJXQFuKg6VVRzB8ccBCIh7YX8k9GZUhPSQ4kg9mXP+A9uK2O2nncJ26FUCsM860JaO5TpQx984PbBKuIdYuRJ+gKsHfhZ0eXn5LJhU1IMzPQGEQOVp2MXt7afh9xHWE/0AHNT3wHe4hRVFhj3TE0AI7+eLaDJWfgvPYRhXqiD2cmm/34T12HA74fYVDMeztwO0I0S32M5FdjxQVLUP4+Uv4S28jy8UqXYVZ3BCUUuuxMvv4SwudYKo2tm1WO2y4mDZxl1Fcfk8IE632bQ+0zPOxtgwLu8F0Xeu95iSTwfEpVI4hgP6EYiBALRBXC5BjETY/oMYGEApHFux8pESRCs7pjr+NTuollI6jm8UG/XVnPNOSmlEkS3XB+qBkidmPMyOlicWsD1wD5Q8MROeWFcUr3ew+r94oOSJKVwIb1zAxL9PmX3SZnuelgAAAABJRU5ErkJggg==");
+    background-size: 25px 25px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-position-x: 540px; }
+  section#zazu iframe#preview {
+    border: 0;
+    background: #E1E1E1;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1); }
+  section#zazu div.results {
+    display: flex;
+    flex-direction: row;
+    background: #f9f9f9;
+    border-radius: 0 0 3px 3px; }
+    section#zazu div.results ul {
+      padding: 0;
+      margin: 0;
+      max-height: 310px;
+      overflow-y: hidden;
+      width: 50%; }
+      section#zazu div.results ul:last-child {
+        width: 100%; }
+      section#zazu div.results ul + div {
+        width: 50%; }
+      section#zazu div.results ul li {
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        -webkit-app-region: no-drag;
+        cursor: pointer;
+        width: 100%;
+        padding: 15px 10px;
+        transition: all 0.3s ease; }
+        section#zazu div.results ul li .icon {
+          text-align: center;
+          line-height: 30px;
+          height: 45px;
+          width: 45px;
+          padding: 5px;
+          float: left; }
+        section#zazu div.results ul li h2, section#zazu div.results ul li h3 {
+          margin: 0;
+          padding-left: 10px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        section#zazu div.results ul li h2 {
+          font-size: 20px;
+          line-height: 25px;
+          font-weight: bold;
+          color: #212121; }
+          section#zazu div.results ul li h2:last-child {
+            font-size: 20px;
+            line-height: 45px; }
+        section#zazu div.results ul li h3 {
+          font-weight: normal;
+          font-size: 15px;
+          color: #6A6A6A; }
+        section#zazu div.results ul li:hover, section#zazu div.results ul li.active {
+          background: #FFF;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1), inset 0 -2px 0 #0481FF; }
+        section#zazu div.results ul li:focus {
+          outline: 0; }
+        section#zazu div.results ul li:first-child {
+          border-top: 1px solid rgba(0, 0, 0, 0.1); }
+        section#zazu div.results ul li:last-child {
+          border-bottom: 0; }

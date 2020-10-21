@@ -1,7 +1,7 @@
 {
-  "name": "Clement Theme",
+  "name": "Snaked Theme",
   "version": "1.0.0",
-  "author": "Eric Jackson",
+  "author": "Tanish",
   "description": "A modern, clean Zazu theme.",
-  "stylesheet": "dist/main.css"
+  "stylesheet": "css/main.css"
 }
