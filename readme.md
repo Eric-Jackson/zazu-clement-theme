@@ -1,24 +1,17 @@
-## Light Theme
+## Snaked Theme
 
-A light theme example written in SASS with node/gulp.
+A simple, shadowes and clean theme for Zazu.
 
-[View a demo](https://tinytacoteam.github.io/zazu-theme-playbook/#tinytacoteam/zazu-light-theme)
+[View a demo](https://tinytacoteam.github.io/zazu-theme-playbook/#tanishbaansal/snaked-theme)
 
 ![Screenshot](./images/screenshot.png)
 
 ## Installing
 
-Mark `tinytacoteam/zazu-light-theme` inside of your `~/.zazurc.json` file.
+Mark `tanishbaansal/snaked-theme` inside of your `~/.zazurc.json` file.
 
 ~~~ json
 {
-  "theme": "tinytacoteam/zazu-light-theme"
+  "theme": "tanishbaansal/snaked-theme"
 }
-~~~
-
-## Building
-
-~~~
-npm install
-npm run build
 ~~~

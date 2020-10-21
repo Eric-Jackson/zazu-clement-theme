@@ -1,12 +1,12 @@
 {
-  "name": "light-theme",
+  "name": "snaked-theme",
   "version": "1.0.0",
-  "description": "A light theme for Zazu.",
+  "description": "A modern, clean Zazu theme.",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build"
   },
-  "author": "Blaine Schmeisser",
+  "author": "Tanish",
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",

@@ -1,7 +1,7 @@
 {
-  "name": "Light Theme",
+  "name": "Snaked Theme",
   "version": "1.0.0",
-  "author": "blainesch",
-  "description": "A basic light theme for Zazu",
+  "author": "Tanish",
+  "description": "A modern, clean Zazu theme.",
   "stylesheet": "dist/main.css"
 }
